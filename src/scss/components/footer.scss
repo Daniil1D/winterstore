@@ -1,0 +1,161 @@
+.footer{
+    background-color: #000;
+    &__content{
+        margin-top: 100px;
+
+    }
+    //---------------------Top
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+
+    }
+    &__title{
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+        width: 667px;
+        height: 48px;
+        border: 1px solid gray;
+
+    }
+    &__img-Email{
+        padding-left: 22px;
+        padding-right: 16px;
+    }
+    &__text{
+        color: #fff;
+    }
+    &__text span{
+        color: rgb(213, 77, 77);
+    }
+    &__img-Otpravit{
+        padding-left: 210px;
+    }
+    &__linia{
+        margin-top: 30px;
+        width: 1360px;
+        height: 1px;
+        background-color: gray;
+    }
+    //---------------------Center
+    &__center{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    &__block1{
+
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+    }
+    &__block1-title{
+
+
+        color: #fff;
+    }
+    &__img-AppStorer{
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        margin-right: 29px;
+    }
+    &__AppStorer{
+        padding-bottom: 15px;
+    }
+
+    &__block2{
+
+    }
+    &__Phone{
+        display: flex;
+        align-items: center;
+    }
+    &__img-Phone{
+        padding-right: 25px;
+    }
+    &__block2-text{
+        width: 200px;
+
+        padding-bottom: 18px;
+        color: #fff;
+    }
+
+
+    &__block3{
+        
+    }
+    &__block-title{
+        padding-bottom: 25px;
+        color: #fff;
+    }
+    &__nav{
+
+    }
+    &__nav-list{
+        color: gray;
+    }
+    &__nav-list + *{
+        padding-top: 20px;
+    }
+
+    &__navv{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    &__nav-listt{
+        color: #fff;
+    }
+    &__nav-listt:nth-child(1){
+        margin-right: 130px;
+    }
+    &__nav-listt:nth-child(2){
+        margin-right: 252px;
+    }
+    &__nav-listt:nth-child(3){
+        margin-right: 170px;
+    }
+    &__nav-listt:nth-child(4){
+        margin-right: 180px;
+    }
+    //---------------------Bottom
+    &__bottom{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    &__bottom-img img{
+        transition: transform 0.3s ease;
+    }
+    &__bottom-img img:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    &__bottom-img > * + *{
+        margin-left: 27px;
+    }
+    &__bottom-text{
+        color: gray;
+    }
+}

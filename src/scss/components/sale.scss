@@ -1,0 +1,36 @@
+.sale{
+
+    &__content{
+        margin-top: 100px;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    &__img{
+        
+    }
+    &__img2{
+        
+    }
+    &__img3{
+        position: absolute;
+        top: 36px;
+        left: 36px;
+    }
+    &__title{
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    &__block-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__text{
+        text-align: center;
+        width: 668px;
+        color: gray;
+    }
+}

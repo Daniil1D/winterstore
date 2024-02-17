@@ -1,0 +1,48 @@
+.headerNavigation{
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav-list{
+        font-weight: bold;
+        transition: transform 0.3s ease;
+    }
+    &__nav-list:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        text-decoration: underline;
+    }
+    &__nav-list + *{
+        padding-left: 25px;
+    }
+    &__img{
+        padding: 22px 0;
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+    }
+    &__block-kartochka img{
+        display: block;
+        margin: auto;
+    }
+    &__block-kartochka{
+        transition: transform 0.3s ease;
+    }
+    &__block-kartochka:hover{
+        cursor: pointer;
+        transform: scale(1.2); /* Измените масштаб, как вам нужно */
+    }
+    &__block-kartochka + *{
+        padding-left: 25px;
+    }
+    &__text{
+        color: #000;
+    }
+}

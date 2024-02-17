@@ -1,0 +1,40 @@
+.Home2Slider{
+
+    &__content{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__strelochka{
+
+    }
+    &__Slider-content{
+        display: grid;
+        grid-template-columns: repeat(9, 135px);
+    }
+    &__kartochka-block{
+        background-color: rgb(239, 233, 233);
+        width: 123px;
+        height: 123px;
+        border-radius: 50%;
+    }
+    &__kartochka-img + *{
+        margin-left: 10px;
+    }
+    &__img{
+        padding: 23px 25px;
+        transition: transform 0.3s, filter 0.3s;
+    }
+    &__img:hover{
+        transform: scale(1.2);
+    }
+    &__text{
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__strelochka2{
+        transform: rotate(180deg);
+    }
+}

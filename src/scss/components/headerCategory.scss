@@ -1,0 +1,32 @@
+.headerCategory{
+background-color: rgb(244, 239, 239);
+    &__content{
+        padding: 18px 0;
+        margin-bottom: 25px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__nav-list{
+        font-weight: bold;
+        transition: transform 0.3s ease;
+    }
+    &__nav-list:hover{
+        cursor: pointer;
+        transform:scale(1.2);
+        text-decoration: underline;
+    }
+    &__nav-list + *{
+        padding-left: 25px;
+    }
+    &__nav-list-active{
+        color: red;
+        transition: transform 0.3s ease;
+    }
+    &__nav-list-active:hover{
+        cursor: pointer;
+        transform:scale(1.2);
+        text-decoration: underline;
+    }
+}

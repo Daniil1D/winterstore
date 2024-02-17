@@ -1,0 +1,103 @@
+.Tovar{
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    &__Filter{
+        
+    }
+    &__Block-Kartochek{
+        margin-left: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 322px);
+        gap: 50px 0;
+    }
+    &__text li{
+        color: red;
+    }
+    &__list{
+        margin-top: 23px;
+    }
+    &__list-li + *{
+        padding-top: 10px;
+    }
+    &__list-block{
+        display: flex;
+        align-items: center;
+    }
+    &__input{
+        margin-right: 10px;
+    }
+    &__number{
+        color: gray;
+        padding-left: 50px;
+    }
+    //---------------------------------Block1-------------
+    &__Filter-block1{
+
+    }
+    //---------------------------------Block2-------------
+    &__Filter-block2{
+        margin-top: 37px;
+    }
+    //---------------------------------Block3-------------
+    &__Filter-block3{
+        margin-top: 37px;
+    }
+    &__input-poisk{
+        padding-top: 12px;
+    }
+    &__Poisk{
+        width: 321px;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    //---------------------------------Block4-------------
+    &__Filter-block4{
+        margin-top: 37px;
+    }
+    &__Block-price{
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+    }
+    &__Price{
+        display: flex;
+        width: 60px;
+        height: 35px;
+        border: 1px solid gray;
+    }
+    &__Price-number{
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    &__linia{
+        width: 10px;
+        height: 1px;
+        background-color: gray;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    &__Block-btn{
+        width: 61px;
+        height: 35px;
+        background-color: #000;
+        margin-left: 10px;
+    }
+    &__btn{
+        display: flex;
+        color: #fff;
+        padding: 5px 20px;
+    }
+    &__Linia-Price{
+        width: 250px;
+        height: 5px;
+        background-color: rgb(215, 207, 207);
+        margin-top: 25px;
+    }
+
+}

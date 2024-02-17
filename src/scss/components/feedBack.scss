@@ -1,0 +1,74 @@
+.feedBack{
+
+    &__content{
+        width: 890px;
+    }
+    &__content-title{
+        display: flex;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 35px;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: bold;
+        padding-right: 15px;
+    }
+    &__number{
+        color: gray;
+        font-weight: bold;
+    }
+    &__feedBack{
+        width: 890px;
+        height: 70px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    &__input{
+        width: 400px;
+        margin-left: 25px;
+    }
+    &__ZvezdaBlock{
+        
+    }
+    &__Zvezda{
+        display: flex;
+        align-items: center;
+    }
+    &__Zvezda > * + *{
+        padding-left: 10px;
+    }
+    &__btn{ 
+        margin-left: 40px;
+        margin-right: 10px;
+        background-color: #000;
+        color: #fff;
+        padding: 12px 54px;
+    }
+    &__feedBack-content > * + *{
+        margin-top: 55px;
+    }
+
+    &__feedBack-block{
+        display: flex;
+        align-items: center;
+    }
+    &__feedBack-Date{
+        margin-top: 20px;
+    }
+    &__feedBackBlock{
+        margin-left: 70px;
+    }
+    &__feedBack-title{
+        font-weight: bold;
+    }
+    &__feedBack-text{
+        width: 600px;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+}

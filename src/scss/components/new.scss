@@ -1,0 +1,105 @@
+.new{
+     
+    &__content{
+
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 48px;
+    }
+    &__kartochka{
+        border-radius: 30px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    &__kartochka:hover{
+        background-color: #8a8686;
+    }
+    &__blockKartochka{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__kartochka{
+        position: relative;
+        background-color: #f3efef;
+    }
+    &__kartochkaIMG{
+        background-color: #f3efef;
+    }
+    &__kartochkaIMG:hover{
+        background-color: #8a8686;
+    }
+    &__kartochka-img{
+        padding: 50px 25px;
+    }
+    &__kartochka-title{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+    &__kartochka-text{
+        color: gray;
+    }
+    &__kartochka-price{
+        font-weight: bold;
+        padding-top: 10px;
+        &.old{
+            text-decoration: line-through;
+            padding-right: 15px;
+        }
+        &.active{
+            color: red;
+        }
+    }
+    &__kartochka-star{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #c8c1c1;
+        &.active{
+            background-color: #9e8e8e;
+        }
+    }
+    &__kartochka-star img{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        
+    }
+    &__kartochka-skidka{
+        position: absolute;
+        left: 0;
+        bottom: 80px;
+        
+        width: 60px;
+        height: 30px;
+        background-color: rgb(226, 64, 64);
+        text-align: center;
+        padding: 0 10px;
+    }
+    &__kartochka-skidka-price{
+        font-weight: bold;
+        color: #fff;
+    }
+    &__btn{
+        
+        width: 322px;
+        height: 50px;
+        margin: 77px auto 0 auto;
+        background-color: #000;
+        
+    }
+    &__button{
+        color: #fff;
+        padding: 15px 95px;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+.Brend{
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    &__content > * + *{
+        margin-left: 70px;
+    }
+}

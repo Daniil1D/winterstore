@@ -1,0 +1,93 @@
+.club{
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 47px;
+    }
+    &__Humen{
+        position: relative;
+    }
+    &__block-img{
+        position: absolute;
+        top: 280px;
+        left: 260px;
+    }
+    &__title{
+        position: absolute;
+        top: 370px;
+        left: 175px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    &__text{
+        position: absolute;
+        top: 420px;
+        left: 165px;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__btn{
+        position: absolute;
+        top: 475px;
+        left: 190px;
+    }
+    &__btn a{
+        width: 292px;
+        height: 50px;
+        background-color: #fff;
+        text-decoration: none;
+        color: #000;
+        padding: 10px 82px;
+        font-weight: bold;
+    }
+    &__Humen2{
+        position: relative;
+    }
+    &__Humen3-img{
+        
+    }
+    &__block-img2{
+        position: absolute;
+        top: 280px;
+        left: 260px;
+    }
+    &__title2{
+        position: absolute;
+        top: 370px;
+        left: 210px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    &__text2{
+        position: absolute;
+        top: 420px;
+        left: 195px;
+        color: #fff;
+        font-size: 15px;
+    }
+    &__input{
+        position: absolute;
+        top: 460px;
+        left: 110px;
+        display: flex;
+        align-items: center;
+        width: 400px;
+        height: 40px;
+        background-color: #fff;
+    }
+    &__img-Email{
+        padding-left: 16px;
+        padding-right: 12px;
+    }
+    &__input-input{
+        width: 140px;
+        height: 25px;
+    }
+    &__img-Otpravit{
+        padding-left: 168px;
+    }
+}

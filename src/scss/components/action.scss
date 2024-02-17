@@ -1,0 +1,24 @@
+.action{
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__block img{
+        width: 660px;
+        height: 270px;
+
+    }
+    &__block-text{
+        width: 660px;
+        height: 71px;
+        background-color: #000;
+    }
+    &__text{
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 18px 36px;
+        text-align: center;
+    }
+}

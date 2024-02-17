@@ -1,0 +1,113 @@
+.Kartochka{
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 42px;
+    }
+    &__nav > * + *{
+        margin-top: 20px;
+    }
+    &__nav-list{
+        width: 88px;
+        height: 88px;
+        
+        &.active{
+            border: 1px solid gray;
+            background-color: rgb(202, 196, 196);
+        }
+    }
+    &__nav-list:hover{
+        border: 1px solid gray;
+        background-color: rgb(202, 196, 196);
+    }
+    &__img{
+        width: 86px;
+        height: 86px;
+        padding: 19px 20px;
+    }
+
+    &__Block-foto2{
+        margin-left: 30px;
+    }
+    &__Block1{
+        width: 705px;
+        height: 705px;
+    }
+    &__img-active{
+        width: 705px;
+        height: 705px;
+    }
+
+
+
+    &__Opisanie{
+        width: 420px;
+    }
+    &__title{
+
+    }
+    &__Opisanie-blcok1{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+    }
+    &__Opisanie-img{
+        padding-right: 25px;
+    }
+    &__Zvezda > * + *{
+        padding-left: 10px;
+    }
+    &__text{
+        margin-left: 19px;
+        text-decoration: underline;
+    }
+    &__Block-zvezda{
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        padding: 11px 10px;
+    }
+    &__title2{
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    &__price{
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    &__price-text{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    &__linia{
+        width: 420px;
+        height: 1px;
+        background-color: gray;
+        margin-bottom: 25px;
+    }
+    &__button{
+        
+        background-color: rgb(214, 110, 110);
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 25px 102px;
+        font-size: 20px;
+    }
+    &__img2{
+        width: 86px;
+        height: 86px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 19px 20px;
+        &.active{
+            border: 1px solid gray;
+        }
+    }
+}
