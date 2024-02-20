@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import KartochkaNew from '../../assets/img/KartochkaNew.png';
 import Logo2 from '../../assets/img/Logo2.svg';
 import Zvezda from '../../assets/img/Zvezda.svg';
@@ -55,9 +57,12 @@ function ToBuy(){
                             <img className='Kartochka__img2' src={KartochkaNew} alt="KartochkaNew" />
                             <img className='Kartochka__img2' src={KartochkaNew} alt="KartochkaNew" />
                         </div>
-                        <div className='Kartochka__button'>
-                            <a className='Kartochka__btn' href="#">Добавить в корзину</a>
-                        </div>
+                        <Link to="/index4">
+                            <div className='Kartochka__button'>
+                                <a className='Kartochka__btn' href="#">Добавить в корзину</a>
+                            </div>
+                        </Link>
+                       
                     </div>
                 </div>
                

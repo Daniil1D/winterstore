@@ -8,28 +8,64 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: scale(0);
+    z-index: 10;
     &__content{
         z-index: 20;
         padding: 20px;
         border-radius: 12px;
         height: 500px;
-        width: 800px;
+        width: 1000px;
         background-color: #fff;
         display: flex;
+        align-items: center;
     }
     &__Avtorization{
-
+        width: 500px;
+        margin: 0 auto;
     }
     &__Avtorization-title{
-
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 25px;
     }
+    // &__Avtorization-label{
+    //     position: absolute;
+    //     left: 15px;
+    //     top: 10px;
+    // }
     &__Avtorization-input{
-
+        position: relative;
+        width: 352px;
+        height: 50px;
+        border: 1px solid gray;
+        margin-bottom: 25px;
+        border-radius: 5px;
+        
     }
-    &__list-block{
+    &__input{
+        height: 35px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
 
+    &__list-block{
+        font-weight: bold;
+    }
+    &__custom{
+        margin-left: 10px;
     }
     &__btn{
-        
+        background-color: #000;
+        color: #fff;
+        padding: 10px 150px;
+        margin-top: 37px;
+    }
+    &__Registration{
+        margin: 0 auto;
+    }
+    &.active{
+        transform: scale(1);
     }
 }

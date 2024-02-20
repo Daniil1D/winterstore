@@ -14,6 +14,7 @@ import Footer from './components/Home/footer';
 import Page from './components/Home/index';
 import Page2 from './components/HomeFilter/index2';
 import Page3 from './components/Kartochka/index3';
+import Page4 from './components/Korzina/index4';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Page/>}/>
             <Route path="/index2" element={<Page2/>}/>
             <Route path="/index3" element={<Page3/>}/>
+            <Route path="/index4" element={<Page4/>}/>
 
           </Routes>
         

@@ -1,14 +1,18 @@
+import React from 'react';
+
 import headerCategoryLogo from '../../assets/img/headerCategoryLogo.png';
 import User from '../../assets/img/User.svg';
 import Zvezda from '../../assets/img/Zvezda.svg';
 import Korzina from '../../assets/img/Korzina.svg';
 import Poisk from '../../assets/img/Poisk.svg';
+import Modal from './Modal';
 
 
 import '../../scss/components/headerNavigation.scss';
 
 
-function headerNavigation() { 
+function HeaderNavigation() { 
+    const [modalActive, setModalActive] = React.useState(true);
     return (
         <div className="headerNavigation">
             <div className="container">
@@ -20,9 +24,10 @@ function headerNavigation() {
                     </ul>
                     <img className="headerNavigation__img" src={headerCategoryLogo} alt="Логотип" />
                     <div className="headerNavigation__block">
-                        <div className="headerNavigation__block-kartochka">
+                        <div className="headerNavigation__block-kartochka" onClick={() => setModalActive(true)}>
                             <img src={User} alt="#" />
                             <p className="headerNavigation__text">ВОЙТИ</p>
+                            <p className="headerNavigation__text">Аккаунт</p>
                         </div>
                         <div className="headerNavigation__block-kartochka">
                             <img src={Zvezda} alt="#" />
@@ -39,11 +44,13 @@ function headerNavigation() {
                     </div>
                 </div>
             </div>
+            <Modal active={modalActive} setActive={setModalActive}/>
         </div>
+        
     )
 }
 
-export default headerNavigation;
+export default HeaderNavigation;
 
 /*import headerCategoryLogo from '../../assets/img/headerCategoryLogo.png';
 import User from '../../assets/img/User.svg';

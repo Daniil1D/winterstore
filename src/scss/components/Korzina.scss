@@ -1,0 +1,94 @@
+.Korzina{
+    &__title{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+    }
+    &__Tovar-block{
+        width: 890px;
+        margin: 0 auto;
+    }
+    &__Tovar{
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+    }
+    &__Img-KartochkaNew{
+        width: 87px;
+        height: 87px;
+        margin-left: 43px;
+        margin-right: 35px;
+    }
+    &__Tovar-opisanie{
+        width: 320px;
+        margin-right: 40px;
+    }
+    &__Tovar-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    &__Tovar-text{
+        color: gray;
+    }
+    &__Tovar-count{
+        display: flex;
+        align-items: center;
+    }
+    &__Img-Minus{
+        margin-right: 10px;
+    }
+    &__Count-block{
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+    &__Count-number{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        padding: 5px 28px;
+    }
+    &__Img-Plus{
+        margin-left: 10px;
+        margin-right: 56px;
+    }
+    &__Tovar-price{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    &__Tovar-Itog{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    &__Tovar-Itog-number{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    &__Tovar-Itog-text{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    &__Tovar-Itog-price{
+        font-size: 24px;
+        font-weight: bold;
+        color: red;
+    }
+    &__Tovar-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(231, 226, 226);
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        color: gray;
+        padding: 20px 122px;
+    }
+}

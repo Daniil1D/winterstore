@@ -7,7 +7,7 @@ import New from './new';
 import Sale from './sale';
 import Blog from './blog';
 import Club from './club';
-import Modal from './Modal';
+
 
 
 function Index() {
@@ -21,7 +21,7 @@ function Index() {
         <Sale/>
         <Blog/>
         <Club/>
-        <Modal active={modalActive} setActive={setModalActive}/>
+       
     </>
   );
 }
