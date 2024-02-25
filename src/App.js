@@ -15,8 +15,10 @@ import Page from './components/Home/index';
 import Page2 from './components/HomeFilter/index2';
 import Page3 from './components/Kartochka/index3';
 import Page4 from './components/Korzina/index4';
+import Skeleton from './components/Skeleton/Skeleton';
 
 function App() {
+
   return (
     <div className='wrapper'>
       <Header/>

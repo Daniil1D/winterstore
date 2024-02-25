@@ -8,12 +8,13 @@ import '../../scss/components/Slider.scss';
 
 
 function Slider() { 
+
     return (  
         <div className="Slider">
             <div className="container">
                 <div className="Slider__content">
                     <div className="Slider__slider">
-                        <input type="radio" className='Slider__input' name='r' id='r1' checked/>
+                        <input type="radio" className='Slider__input' name='r' id='r1'/>
                         <input type="radio" className='Slider__input' name='r' id='r2'/>
                         <input type="radio" className='Slider__input' name='r' id='r3'/>
                         

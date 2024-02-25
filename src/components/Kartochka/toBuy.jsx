@@ -7,6 +7,20 @@ import Zvezda from '../../assets/img/Zvezda.svg';
 import '../../scss/components/toBuy.scss';
 
 function ToBuy(){
+    
+//   function click(){
+//     fetch("http://winterstore/admin.php", {
+//       method : 'POST',
+//       header : {
+//         'Content-Type' : 'application/x-www-form-urlencoded',
+//     },
+//     body : JSON.stringify({action : 1})
+//     })
+//     .then (response => response.text())
+//     .then (response => {
+//       console.log(response);
+//     })
+//   }
     return(
         <>
         <div className='Kartochka'>
